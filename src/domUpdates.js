@@ -1,11 +1,14 @@
-//NOTE: Your DOM manipulation will occur in this file
+// Use this file to update the html (MDN Docs for Element: https://developer.mozilla.org/en-US/docs/Web/API/Element)
+// Query selectors will live here (MDN Docs for Document: https://developer.mozilla.org/en-US/docs/Web/API/Document)
+// Any events will live here (MDN Docs for Event: https://developer.mozilla.org/en-US/docs/Web/API/Event)
+// Things to keep in mind: reusability/dynamic functionality
 
-//Here is an example function just to demonstrate one way you can export/import between the two js files. You'll want to delete this once you get your own code going.
+
 const displayRecipes = () => {
-  console.log(`Displaying recipes now`)
-}
+  console.log(`Displaying recipes now`);
+};
 
-
+// All methods will be exported in list format within an object
 export {
   displayRecipes,
-}
+};
